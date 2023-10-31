@@ -27,15 +27,15 @@
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
 ## Talleres
-[taller1](https://github.com/LappleApple/feedmereadmes#readme) - Estas entidades son ejemplos desarrollados dentro de clases 
-[Task](https://github.com/LappleApple/feedmereadmes#readme) - Consulta de refuerzo
+[taller1](https://github.com/ROOGER963/Notes4Y/tree/main/paw/relations/src/entities) - Estas entidades son ejemplos desarrollados dentro de clases 
+  -[categoria]( https://github.com/ROOGER963/Notes4Y/blob/main/paw/relations/src/entities/categoty.entity.ts)
+  -[producto]( https://github.com/ROOGER963/Notes4Y/blob/main/paw/relations/src/entities/product.entity.ts)
+ 
+[Task](https://github.com/ROOGER963/Notes4Y/tree/main/paw/relations/src/entities/roles) - Consulta de refuerzo (ROLES Y USUARIOS)
 
-```bash
-$ npm install
-```
 
 ## Deberes
-[S2-P1: Relaciones con Nestjs](https://github.com/LappleApple/feedmereadmes#readme) - Estas entidades 
+[S2-P1: Relaciones con Nestjs](https://github.com/ROOGER963/Notes4Y/tree/main/paw/relations/src/entities/S2-P1) - Estas entidades 
 
 ## Support
 

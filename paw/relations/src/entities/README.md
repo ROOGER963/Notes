@@ -24,7 +24,7 @@
 
 ## S2-P1: Relaciones con Nestjs
 
-[Deber](https://github.com/nestjs/nest) - Relacion de una veterinaria y su cliente.
+[Deber](https://github.com/ROOGER963/Notes4Y/tree/main/paw/relations/src/entities/S2-P1) - Relacion de una veterinaria y su cliente.
 
 ## Integrantes
 
