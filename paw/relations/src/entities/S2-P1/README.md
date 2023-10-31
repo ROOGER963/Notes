@@ -1,9 +1,9 @@
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
+  <a href="http://nestjs.com/" target="blank"><img src="https://pbs.twimg.com/profile_images/1625880126708764673/balN4Xln_400x400.jpg" width="200" alt="Nest Logo" /></a>
 </p>
 
-[circleci-image]: https://th.bing.com/th/id/OIP.2l8m65UEPCUNqZNd-Vqn_QHaHa?pid=ImgDet&rs=1
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+[circleci-image]: https://pbs.twimg.com/profile_images/1625880126708764673/balN4Xln_400x400.jpg
+[circleci-url]: https://pbs.twimg.com/profile_images/1625880126708764673/balN4Xln_400x400.jpg
 
   <p align="center">Instituto Superior Tecnológico de Turismo y Patrimonio "Yavirac"</p>
     <p align="center">
