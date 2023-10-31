@@ -6,11 +6,14 @@ import {
     JoinTable,
     ManyToMany,
     OneToMany,
+    OneToOne,
     PrimaryGeneratedColumn, UpdateDateColumn
 } from "typeorm";
 
 
 import { PetEntity } from "./pet.entity";
+import { LocalEntity } from "./local.entity";
+import { ClientEntity } from "./client.entity";
 
 @Entity('doctors', { schema: 'veterinaria' })
 export class DoctorEntity {
@@ -68,11 +71,14 @@ export class DoctorEntity {
     //Relacion
 
     //mascota
-    @OneToMany(() => PetEntity, pet => pet.id)
+    @OneToOne(() => PetEntity, pet => pet.doctor)
     pet: PetEntity;
+    //CLient
+    @OneToMany(() => ClientEntity, client => client.doctors)
+    client: ClientEntity;
 
     //local
-    @ManyToMany(() => DoctorEntity, doctors => doctors.id)
+    @ManyToMany(() => LocalEntity, locals => locals.doctors)
     @JoinTable()
-    doctos: DoctorEntity[];
+    locals: DoctorEntity[];
 }

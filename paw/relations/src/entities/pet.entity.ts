@@ -5,6 +5,7 @@ import {
     Entity,
     JoinTable,
     ManyToMany,
+    ManyToOne,
     OneToMany,
     OneToOne,
     PrimaryGeneratedColumn, UpdateDateColumn
@@ -12,6 +13,7 @@ import {
 
 import { DoctorEntity } from "./doctor.entity";
 import { ClientEntity } from "./client.entity";
+import { LocalEntity } from "./local.entity";
 
 
 @Entity('pets', { schema: 'veterinaria' })
@@ -68,11 +70,14 @@ export class PetEntity {
     })
     phone: number;
     //Relacion
-
+    
+    //local
+    @ManyToMany(() => LocalEntity, locals => locals.pets)
+    locals: LocalEntity[];
     //doctor
     @OneToOne(() => DoctorEntity, doctor => doctor.id)
     doctor: DoctorEntity;
     //cliente
-    @OneToOne(() => ClientEntity, client => client.id)
-    client: ClientEntity;
+    @ManyToOne(() => ClientEntity, client => client.id)
+    client: ClientEntity[];
 }

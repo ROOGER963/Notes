@@ -67,15 +67,15 @@ export class LocalEntity {
     })
     phone: number;
     //Relacion clientes
-    @ManyToMany(() => ClientEntity, clients => clients.id)
+    @ManyToMany(() => ClientEntity, clients => clients.locals)
     @JoinTable()
     clients: ClientEntity[];
     //mascotas
-    @ManyToMany(() => PetEntity, pets => pets.id)
+    @ManyToMany(() => PetEntity, pets => pets.locals)
     @JoinTable()
     pets: PetEntity[];
     //Doctores
-    @ManyToMany(() => DoctorEntity, doctors => doctors.id)
+    @ManyToMany(() => DoctorEntity, doctors => doctors.locals)
     @JoinTable()
     doctors: DoctorEntity[];
 
